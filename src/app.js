@@ -32,7 +32,7 @@ const renderItem = ({ title, abstract }) => {
   const content = `<article class="article">
     <h3>${title}</h3>
     <p>${abstract.join("<br>")}</p>
-    <a href="#">View details ≫</a>
+    <a href="javascript:void(0);">View details ≫</a>
   </article>`;
   item.innerHTML = image + content;
 
